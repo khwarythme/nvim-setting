@@ -1,0 +1,4 @@
+--require'orgmode'.setup({
+
+
+--})
