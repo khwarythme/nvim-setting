@@ -1,4 +1,6 @@
 return {
 	"startup-nvim/startup.nvim",
-	"echasnovski/mini.icons",
+	config = function()
+		require'startup'.setup()
+	end,
 }
